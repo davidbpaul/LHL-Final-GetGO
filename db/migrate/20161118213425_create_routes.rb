@@ -9,7 +9,7 @@ class CreateRoutes < ActiveRecord::Migration[5.0]
       t.string :color
       t.string :text_color
 
-      t.timestamps
+      # t.timestamps
     end
   end
 end

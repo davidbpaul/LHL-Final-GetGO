@@ -13,7 +13,7 @@ class CreateTrips < ActiveRecord::Migration[5.0]
       t.string :bikes_allowed
       t.string :route_variant
 
-      t.timestamps
+      # t.timestamps
     end
   end
 end
